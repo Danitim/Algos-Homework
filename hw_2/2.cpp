@@ -34,6 +34,6 @@ int main() {
     }
     cin >> price;
 
-    cout << findPrice(a, price) << endl;
+    cout << (findPrice(a, price) ? "true" : "") << endl;
     return 0;
 }
